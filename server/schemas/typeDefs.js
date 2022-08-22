@@ -8,7 +8,7 @@ const typeDefs = gql`
         bookCount: Int
         savedBooks: [Book]
     }
-    
+
     type Book {
         _id: ID!
         bookId: ID
@@ -18,7 +18,7 @@ const typeDefs = gql`
         image: String
         link: String
     }
-    
+
     input BookData {
         bookId: String
         authors: [String]
